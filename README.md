@@ -106,4 +106,5 @@ po wyznaczonych, rozmytych, **nieostrych filtrach**. Stworzyłem **6 funkcji**, 
 
 ## Czego się nauczyłem
 - Projekt ten był idealnym przećwiczeniem nowo zdobytej wiedzy z zakresu logiki rozmytej. 
+- Utrwaliłem porównywanie kilku wartości z różnych funkcji przynależności (**k-norma maksimum** oraz **t-norma minimum**)
 - Uświadomił mi jak w rzeczywiście łatwy lecz przemyślany sposób można w praktyce skorzystać z logiki rozmytej do implementacji wielu programów użytkowych. Np.: sklepów E-comerce w których to najczęściej wyznaczamy ostry przedział cenowy który nas interesuje, chociaż delikatnie droższy produkt ale o konkretnych właściwościach może do nas bardziej przemawiać. Niestety sklepy tego typu przedstawiając nam wyniki wyszukiwania - nie biorą pod uwagę produktów które mogą delikatnie odstawać od pewnych parametrów ale zdecydowanie bardziej pasować w innych.
