@@ -27,38 +27,38 @@ po wyznaczonych, rozmytych, **nieostrych filtrach**. Stworzyłem **6 funkcji**, 
 ### 1. Filmy "w miarę nowe":
 
 
->$f(x)  =
-  \begin{cases}
+> $$f(x)  =
+ \begin{cases}
  x = [ rokFilmu - (aktualnyRok -8) ]/3 & \quad  \text{if } x > (aktualnyRok - 8) \text{ and } x < (aktualnyRok - 5)\\
   x=[ (aktualnyRok -1) - rokFilmu]/3 & \quad  \text{if } x > (aktulanyRok - 4) \text{ and }  x < (aktualnyRok - 1)\\
   1 & \quad  \text{if } x \ge (aktualnyRok - 5) \text{ and } x \le (aktualnyRok-4) \\
   0 & \quad  \text{if }  x \ge (aktualnyRok - 1) \text{ or } x < (aktualnyRok - 8)\\
-  \end{cases}$
+  \end{cases}$$
 
 ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/filmy_w_miare_nowe.JPG?raw=true)
 
 ##
  ### 2. Filmy "średnio stare":
 
->$f(x)  =
+> $$f(x)  =
   \begin{cases}
  x = [ rokFilmu - (aktualnyRok -30) ]/6 & \quad  \text{if } x > (aktualnyRok -30) \text{ and  } x < (aktualnyRok -20) \\
   x=[ (aktualnyRok - 14) - rokFilmu]/6 & \quad  \text{if } x > (aktualnyRok -20) \text{ and }  x < (aktualnyRok - 14)\\
   1 & \quad  \text{if } x \ge (aktulanyRok-24) \text{ and } x \le (aktualnyRok-20) \\
   0 & \quad  \text{if } x > (aktualnyRok - 14) \text{ or } x < (aktualnyRok - 30) \\
-  \end{cases}$
+  \end{cases}$$
   
   ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/srednio_stary_film.JPG?raw=true)
 ##
 
  ### 3. Filmy "stare":
 
->$f(x)  =
+> $$f(x)  =
   \begin{cases}
  x = [ rokFilmu - (aktualnyRok - 42) ]/12 & \quad  \text{if } x < (aktualnyRok - 30) \text{ and } x > (aktualnyRok-44)\\
   1 & \quad  \text{if } x \le (aktualnyRok -44)\\
  0 & \quad  \text{if }  x > (aktualnyRok - 30) \\
-  \end{cases}$
+  \end{cases}$$
 
 ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/filmy_stare.JPG?raw=true)
 
@@ -66,39 +66,39 @@ po wyznaczonych, rozmytych, **nieostrych filtrach**. Stworzyłem **6 funkcji**, 
 
 ### 4. Filmy "niedługie":
 
->$f(x)  =
+> $$f(x)  =
   \begin{cases}
  x = [ czasFilmu - 60  ]/18 & \quad  \text{if } x\in (60 , 78])\\
   x=[100- czasFilmu]/18 & \quad  \text{if } x\in (82,100]\\
   1 & \quad  \text{if } x \in [78,82]\\
   0 & \quad  \text{dla pozostałych x-ów}\\
-  \end{cases}$
+  \end{cases}$$
 
 ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/filmy_niedugie.JPG?raw=true)
 ##
 
 ### 5. Filmy "Średnio długie":
 
->$f(x)  =
+> $$f(x)  =
   \begin{cases}
  x = [ czasFilmu - 99  ]/9 & \quad  \text{if } x\in (99 , 108])\\
   x=[119- czasFilmu]/9 & \quad  \text{if } x\in (110,119]\\
   1 & \quad  \text{if } x \in [108,110]\\
   0 & \quad  \text{dla pozostałych x-ów}\\
-  \end{cases}$
+  \end{cases}$$
 
 ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/filmy_srednio_dlugie.JPG?raw=true)
 ##
 
 ### 6. Filmy "dość długie":
 
->$f(x)  =
+> $$f(x)  =
   \begin{cases}
  x = [ czasFilmu - 110]/16 & \quad  \text{if } x\in (110, 126])\\
   x=[142- czasFilmu]/16 & \quad  \text{if } x\in (126,142]\\
   1 & \quad  \text{if } x = 126\\
   0 & \quad  \text{dla pozostałych x-ów}\\
-  \end{cases}$
+  \end{cases}$$
 
 ![enter image description here](https://github.com/Education-IT/Fuzzy-Sets/blob/main/diagrams/filmy_dosc_dlugie.JPG?raw=true)
 ##
