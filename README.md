@@ -20,9 +20,9 @@ po wyznaczonych, rozmytych, **nieostrych filtrach**. Stworzyłem **6 funkcji**, 
 
 
 ##  Funkcje:
-> Przedstawione diagramy są poglądowe. Odzwierciedlają działanie funkcji tylko dla konkretnego zbioru filmów. (`database.csv`) 
-
-> Funkcje, które określają dopasowanie do filtra z perspektywy daty powstania filmu - zostały stworzone przeze mnie tak, aby były uniwersalne i możliwe do wykorzystania również wielokrotnie w przyszłości - te funkcje przynależności biorą pod uwagę aktualnie trwający rok.
+- Przedstawione diagramy są poglądowe. Odzwierciedlają działanie funkcji tylko dla konkretnego zbioru filmów. (`database.csv`) 
+- Funkcje, które określają dopasowanie do filtra z perspektywy daty powstania filmu - zostały stworzone przeze mnie tak, aby były uniwersalne i możliwe do wykorzystania również wielokrotnie w przyszłości - te funkcje przynależności biorą pod uwagę aktualnie trwający rok.
+##
 
 ### 1. Filmy "w miarę nowe":
 
