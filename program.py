@@ -13,13 +13,6 @@ def currentYear():
 ### FUNCKJE PRZYNALEŻNOŚCI ### =======================================================
 
 ### Filmy w miarę nowe ### ===========================================================  
-#           /--
-#          /
-#         /  x = [ $rok_filmu - ($aktualny_rok - 8) ] / 3  | x € [ 2014 ; 2017 )
-#  f(x) =    x = [ ($aktualny_rok - 1) - $rok_filmu ] / 3  | x € ( 2018 ; 2021 ]
-#         \  1  x € [2017 , 2018]
-#          \ 0  x € (dla pozostałych x-ów)
-#           \--
 def relativelyNew(y_movie_list,y_current):  
         ralativelyNewList = []
         for year in y_movie_list:
@@ -45,13 +38,6 @@ def relativelyNew(y_movie_list,y_current):
 
 
 ### Filmy Średnio stare ### ============================================================
-#           /--
-#          / 
-#         /  x = [ $rok_filmu - ($aktualny_rok - 30)] / 6   | x € [ 1992 ; 1998 )
-#   f(x) =   x = [ ($aktualny_rok - 30) - $rok_filmu] / 6   | x € ( 2002 ; 2008 ]
-#         \  1  x € [1998 , 2002]
-#          \ 0  x € (dla pozostałych x-ów)
-#           \--
 def MediumOld(y_movie_list,y_current):
         mediumOldList = []
         for year in y_movie_list:
@@ -76,14 +62,7 @@ def MediumOld(y_movie_list,y_current):
         return mediumOldList
 
 
-### Filmy stare ### ============================================================
-#           /--
-#          / 
-#         /  x = [ $rok_filmu - ($aktualny_rok - 42)] / 12   | x € (1978 ; 1992)
-#   f(x) =   1  x € [1888(pierwszy film) , 1978]
-#         \  0  x € (1992,dziś)
-#          \ 
-#           \--        
+### Filmy stare ### ============================================================      
 def Old(y_movie_list,y_current):
         oldList = []
         for year in y_movie_list:
@@ -101,13 +80,6 @@ def Old(y_movie_list,y_current):
         return oldList
 
 ### Filmy niedługie ### ============================================================
-#           /--
-#          / 
-#         /  x = [ czas_filmu - 60] / 18   | x € ( 60 ; 78 ]
-#   f(x) =   x = [ 100 - $czas_filmu] / 18   | x € ( 82 ; 100 ]
-#         \  1  x € [78 , 82]
-#          \ 0  x € (dla pozostałych x-ów)
-#           \----   
 def notLongTime(time_list):
         notLongList = []
         for time in time_list:
@@ -131,15 +103,7 @@ def notLongTime(time_list):
         #print(notLongList)
         return notLongList
 
-### Filmy średnio długie ### ============================================================
-#           /--
-#          / 
-#         /  x = [ czas_filmu - 99] / 9   | x € ( 99 ; 108 )
-#   f(x) =   x = [ 119 - $czas_filmu] / 9   | x € ( 110 ; 119 ]
-#         \  1  x € [108, 110]
-#          \ 0  x € (dla pozostałych x-ów)
-#           \----  
-
+### Filmy średnio długie ### ============================================================--  
 def mediumLongTime(time_list):
         mediumLongList = []
         for time in time_list:
@@ -164,14 +128,6 @@ def mediumLongTime(time_list):
         return mediumLongList
         
 ### Filmy dość długie ### ============================================================
-#           /--
-#          / 
-#         /  x = [ czas_filmu - 110] / 16   | x € ( 110 ; 126 )
-#   f(x) =   x = [ 142 - $czas_filmu] / 16   | x € ( 126 ; 142 ]
-#         \  1  x = 126
-#          \ 0  x € (dla pozostałych x-ów)
-#           \----  
-
 def quiteLongTime(time_list):
         quiteLongList = []
         for time in time_list:
