@@ -5,7 +5,7 @@
 
 The task was to use **fuzzy sets** to create a program that recommends movies to the user based on specified, fuzzy, **vague filters**. I created **6 functions** that assign a value from **0** to **1** to movies based on their compatibility with the designated filter. The program generates 3 newly created `.csv` files that contain the recommended movies that best match the user's selection. The files are sorted based on the values assigned by the **membership function**.
 
-![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) [![website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://education-it.pl/)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) <!--[![website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://education-it.pl/)-->
  ## 
 **Program:**
 1) It starts with a movie database - `database.csv`.
